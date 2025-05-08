@@ -6,7 +6,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(add(2, 3), 5)
         self.assertEqual(add(-1, 1), 0)
         self.assertEqual(add(0, 0), 0)
-        self.assertEqual(add(1, 3), 5)
+        self.assertEqual(add(1, 3), 4, "1 + 3 should be 4")
 
     def test_subtract(self):
         # TODO: add assertions for subtract
